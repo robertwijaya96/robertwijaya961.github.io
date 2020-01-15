@@ -1,6 +1,4 @@
 #home {
-  width: 100%;
-  height: 100%;
   background-color: #000022;
   background-image: url("");
   background-repeat: no-repeat;
@@ -207,8 +205,7 @@ a:hover {
 }
 
 .paralax-mf {
-  position: relative;
-  padding: 8rem 0;
+  position: relative; 
 }
 
 .display-table {
@@ -846,8 +843,7 @@ a:hover {
 //--//-->   COUNTER
 ======================================*/
 
-.counter-box {
-  color: #fff;
+.counter-box { 
   text-align: center;
 }
 
@@ -859,7 +855,7 @@ a:hover {
   height: 60px;
   width: 60px;
   line-height: 1.8;
-  box-shadow: 0 0 0 10px #f5dcdc;
+  /* box-shadow: 0 0 0 10px #f5dcdc; */
 }
 
 .counter-num .counter {
@@ -867,6 +863,10 @@ a:hover {
   margin-bottom: 0;
 }
 
+.counter-num .counter1 {
+  font-size: 1.8rem;
+  margin-bottom: 0;
+}
 /*======================================
 //--//-->   PORTFOLIO
 ======================================*/
